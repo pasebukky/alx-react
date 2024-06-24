@@ -1,0 +1,1 @@
+This repository contains all the ALX-REACTS projects.
