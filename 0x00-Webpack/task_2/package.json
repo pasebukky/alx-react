@@ -18,7 +18,14 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "@eslint/config-array": "^0.16.0",
+    "@eslint/object-schema": "^2.1.4",
+    "@npmcli/fs": "^3.1.1",
+    "@npmcli/package-json": "^5.2.0",
+    "glob": "^10.4.2",
     "jquery": "^3.7.1",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "lru-cache": "^10.2.2",
+    "rimraf": "^5.0.7"
   }
 }
