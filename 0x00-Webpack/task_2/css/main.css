@@ -1,12 +1,13 @@
 #count {
     font-weight: bold;
-    margin-left: 10px; 
+    margin-left: auto;
   }
   
   #button-container {
     display: flex;
+    justify-content: space-between; /* This distributes space between the button and counter */
     align-items: center;
-    gap: 10px; /* Add some space between the button and the counter */
+    width: 100%; 
   }
   
   #logo {
