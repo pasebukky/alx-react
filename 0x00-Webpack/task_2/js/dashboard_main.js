@@ -1,6 +1,7 @@
 import '../css/main.css';
 import $ from 'jquery';
 import _ from 'lodash';
+import logo from '../assets/holberton-logo.jpg';
 
 $('body').append("<div id='logo'> </div>");
 $('body').append('<p>Holberton Dashboard</p>');
@@ -17,3 +18,4 @@ function updateCounter () {
 }
 
 $('button').on('click', _.debounce(updateCounter, 500));
+$('#logo').css('background-image', `url(${logo})`);
