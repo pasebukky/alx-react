@@ -3,8 +3,10 @@
     margin-left: 10px; 
   }
   
-  button {
-    display: inline-block;
+  #button-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add some space between the button and the counter */
   }
   
   #logo {
