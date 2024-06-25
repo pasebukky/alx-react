@@ -20,9 +20,16 @@ module.exports = {
       {
         test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
         type: 'asset/resource',
-        generator: {
-          filename: 'assets/holberton-logo.jpg' 
-        },
+        use: [
+          'file-loader',
+					{
+						loader: 'image-webpack-loader',
+						options: {
+							bypassOnDebug: true,
+							disable: true,
+						},
+					},
+				],
       },
     ]
   }
