@@ -1,3 +1,10 @@
+#logo {
+  width: 200px;
+  height: 200px;
+  background-image: url('../assets/holberton-logo.jpg');
+  background-size: 200px 200px;
+}
+
 #count {
     display: inline;
     font-weight: bold;
@@ -6,15 +13,7 @@
   
   #button-container {
     display: flex;
-    justify-content: space-between; /* This distributes space between the button and counter */
+    justify-content: space-between;
     align-items: center;
     width: 100%; 
   }
-  
-  #logo {
-    width: 200px;
-    height: 200px;
-    background-image: url('../assets/holberton-logo.jpg');
-    background-size: 200px 200px;
-  }
-  
