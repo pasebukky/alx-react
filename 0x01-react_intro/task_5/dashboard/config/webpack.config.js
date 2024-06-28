@@ -29,7 +29,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, '../dist/index.html'), // update this path
+      template: path.resolve(__dirname, '../dist/index.html'), 
     }),
   ],
   devServer: {
@@ -39,4 +39,5 @@ module.exports = {
     compress: true,
     port: 8080,
   },
+  devtool: 'inline-source-map',
 };
