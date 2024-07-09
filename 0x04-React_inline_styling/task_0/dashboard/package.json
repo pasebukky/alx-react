@@ -41,6 +41,7 @@
       "\\.(css|less|sass|scss)$": "identity-obj-proxy",
       "\\.(jpg|jpeg|png|gif|svg)$": "<rootDir>/config/fileMock.js"
     },
+    "silent": true,
     "setupFilesAfterEnv": [
       "<rootDir>/config/setupTests.js"
     ]
