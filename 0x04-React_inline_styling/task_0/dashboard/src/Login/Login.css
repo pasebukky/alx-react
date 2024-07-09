@@ -1,0 +1,28 @@
+.App-body .Access-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+  }
+  
+  .App-body label {
+    margin: 0;
+  }
+  
+  .App-body input {
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .App-body button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+
+  .App-body {
+    padding: 30px;
+    border-bottom: 3px solid red;
+    height: 100vh;
+  }
